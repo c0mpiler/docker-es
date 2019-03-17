@@ -51,3 +51,11 @@
 9-:-Djava.locale.providers=COMPAT
 
 10-:-XX:UseAVX=2
+
+-XX:-UseParNewGC
+-XX:-UseConcMarkSweepGC
+-XX:+UseCondCardMark
+-XX:MaxGCPauseMillis=200
+-XX:+UseG1GC
+-XX:GCPauseIntervalMillis=1000
+-XX:InitiatingHeapOccupancyPercent=35
