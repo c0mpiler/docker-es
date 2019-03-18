@@ -51,7 +51,6 @@
 
 10-:-XX:UseAVX=2
 
--XX:-UseParNewGC
 -XX:-UseConcMarkSweepGC
 -XX:+UseCondCardMark
 -XX:MaxGCPauseMillis=200
